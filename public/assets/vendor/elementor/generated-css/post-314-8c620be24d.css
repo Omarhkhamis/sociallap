@@ -1,0 +1,40 @@
+.elementor-314 .elementor-element.elementor-element-1e4d3ea{--display:flex;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:180px 180px;--row-gap:180px;--column-gap:180px;--padding-top:70px;--padding-bottom:70px;--padding-left:0px;--padding-right:0px;}.elementor-widget-nav-menu .elementor-nav-menu .elementor-item{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item{color:var( --e-global-color-text );fill:var( --e-global-color-text );}.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item:hover,
+					.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item.elementor-item-active,
+					.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item.highlighted,
+					.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item:focus{color:var( --e-global-color-accent );fill:var( --e-global-color-accent );}.elementor-widget-nav-menu .elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item:before,
+					.elementor-widget-nav-menu .elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item:after{background-color:var( --e-global-color-accent );}.elementor-widget-nav-menu .e--pointer-framed .elementor-item:before,
+					.elementor-widget-nav-menu .e--pointer-framed .elementor-item:after{border-color:var( --e-global-color-accent );}.elementor-widget-nav-menu{--e-nav-menu-divider-color:var( --e-global-color-text );}.elementor-widget-nav-menu .elementor-nav-menu--dropdown .elementor-item, .elementor-widget-nav-menu .elementor-nav-menu--dropdown  .elementor-sub-item{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-314 .elementor-element.elementor-element-40b8e3c{width:100%;max-width:100%;--e-nav-menu-horizontal-menu-item-margin:calc( 20px / 2 );}.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu .elementor-item{font-family:"ExpoArabic", Sans-serif;font-size:20px;font-weight:100;}.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu--main .elementor-item{color:var( --e-global-color-8a8ca53 );fill:var( --e-global-color-8a8ca53 );padding-left:0px;padding-right:0px;padding-top:25px;padding-bottom:25px;}.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu--main .elementor-item:hover,
+					.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu--main .elementor-item.elementor-item-active,
+					.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu--main .elementor-item.highlighted,
+					.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu--main .elementor-item:focus{color:var( --e-global-color-ca49c57 );fill:var( --e-global-color-ca49c57 );}.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu--main .elementor-item.elementor-item-active{color:var( --e-global-color-ca49c57 );}.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu--main:not(.elementor-nav-menu--layout-horizontal) .elementor-nav-menu > li:not(:last-child){margin-bottom:20px;}#elementor-popup-modal-314 .dialog-widget-content{animation-duration:0.5s;background-color:var( --e-global-color-9e8fa06 );border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-d0c9176 );border-radius:0px 0px 20px 20px;margin:50px 0px 0px 0px;}#elementor-popup-modal-314 .dialog-message{width:100vw;height:auto;}#elementor-popup-modal-314{justify-content:center;align-items:flex-start;}#elementor-popup-modal-314 .dialog-close-button{display:flex;}#elementor-popup-modal-314 .dialog-close-button i{color:#FFFFFF85;}#elementor-popup-modal-314 .dialog-close-button svg{fill:#FFFFFF85;}#elementor-popup-modal-314 .dialog-close-button:hover i{color:var( --e-global-color-text );}@media(max-width:1024px){.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu .elementor-item{font-size:18px;}}@media(max-width:767px){.elementor-314 .elementor-element.elementor-element-1e4d3ea{--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--gap:21px 0px;--row-gap:21px;--column-gap:0px;--padding-top:40px;--padding-bottom:40px;--padding-left:40px;--padding-right:40px;}.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu .elementor-item{font-size:14px;}}/* Start custom CSS for nav-menu, class: .elementor-element-40b8e3c *//* Hide all icons by default */
+.elementor-314 .elementor-element.elementor-element-40b8e3c .menu-item i._mi { display: none; }
+/* Show icon only for active item */
+.elementor-314 .elementor-element.elementor-element-40b8e3c .current-menu-item > a i._mi,
+.elementor-314 .elementor-element.elementor-element-40b8e3c .current_page_item > a i._mi,
+.elementor-314 .elementor-element.elementor-element-40b8e3c .current-menu-ancestor > a i._mi {
+    display: inline-flex; align-items: center; justify-content: center;
+}
+/* Space between icon and text */
+.elementor-314 .elementor-element.elementor-element-40b8e3c .current-menu-item > a,
+.elementor-314 .elementor-element.elementor-element-40b8e3c .current_page_item > a,
+.elementor-314 .elementor-element.elementor-element-40b8e3c .current-menu-ancestor > a {
+    display: flex; align-items: center;
+}
+/* Divider between items */
+.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu > li:not(:last-child) {
+    position: relative; margin-bottom: 14px; padding-bottom: 14px;
+}
+.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu > li:not(:last-child)::after {
+    content: ""; position: absolute; right: 0; bottom: 0;
+    width: 100%; height: 1px;
+    background: var(--e-global-color-d0c9176);
+}
+/* Hover */
+.elementor-314 .elementor-element.elementor-element-40b8e3c .boxonhover:hover::before { transform: translateY(0); }
+
+
+/* Center-align multi-line menu item text only */
+.elementor-314 .elementor-element.elementor-element-40b8e3c .elementor-nav-menu .menu-item > a {
+    text-align: center;
+    white-space: normal;
+}/* End custom CSS */
