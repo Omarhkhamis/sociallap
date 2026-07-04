@@ -93,7 +93,11 @@ export default function RootLayout({ children }) {
         {scriptSrcs.map((src) => (
           <Script key={src} src={src} strategy="afterInteractive" />
         ))}
-        <svg className="e-font-icon-svg-symbols" />
+        <svg
+          id="e-font-icon-svg-symbols"
+          className="e-font-icon-svg-symbols"
+          style={{ display: "none" }}
+        />
       </body>
     </html>
   );

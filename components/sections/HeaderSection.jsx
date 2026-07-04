@@ -430,7 +430,7 @@ export default function HeaderSection() {
           >
             <a
               className="elementor-button elementor-button-link elementor-size-sm"
-              href="https://calendly.com/getsociallab"
+              href="https://calendly.com/getsociallab/getsociallab"
             >
               <span className="elementor-button-content-wrapper">
                 <span className="elementor-button-text">‏أحجز جلسة مجانية</span>

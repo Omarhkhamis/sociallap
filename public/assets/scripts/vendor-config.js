@@ -91,7 +91,7 @@ window.addEventListener("mousemove", (ev) => {
 })();
 
 /* inline script 7 */
-document.addEventListener("DOMContentLoaded", function () {
+function initAppDownloadButtons() {
   const appStoreUrl = "https://apps.apple.com/sa/app/social-lab-grow-your-business/id6745023855";
   const googlePlayUrl = "https://play.google.com/store/apps/details?id=com.social.lab.app&pcampaignid=web_share";
   const fallbackUrl = "https://apps.apple.com/sa/app/social-lab-grow-your-business/id6745023855";
@@ -132,10 +132,16 @@ document.addEventListener("DOMContentLoaded", function () {
     event.preventDefault();
     window.location.href = getDeviceStoreUrl();
   });
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initAppDownloadButtons, { once: true });
+} else {
+  initAppDownloadButtons();
+}
 
 /* inline script 9 */
-document.addEventListener('DOMContentLoaded', function () {
+function initMobileFullscreenMenu() {
   const menus = document.querySelectorAll('.mobile-fullscreen-menu');
 
   function setRealMenuHeight() {
@@ -186,7 +192,13 @@ document.addEventListener('DOMContentLoaded', function () {
       document.documentElement.classList.remove('fs-menu-html-lock');
     }
   });
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initMobileFullscreenMenu, { once: true });
+} else {
+  initMobileFullscreenMenu();
+}
 
 /* inline script 10 */
 const lazyloadRunObserver = () => {

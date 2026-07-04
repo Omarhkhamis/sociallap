@@ -9,7 +9,7 @@
       var icon = document.createElement('a');
 
       icon.id = 'sl-floating-consultation';
-      icon.href = 'https://calendly.com/getsociallab';
+      icon.href = 'https://calendly.com/getsociallab/getsociallab';
       icon.target = '_blank';
       icon.rel = 'noopener noreferrer';
       icon.setAttribute('aria-label', 'احجز جلسة مجانية');
@@ -23,8 +23,12 @@
       document.body.appendChild(icon);
     }
 
-    window.addEventListener('load', function () {
+    if (document.readyState === 'complete') {
       setTimeout(addConsultationIcon, 1800);
-    });
+    } else {
+      window.addEventListener('load', function () {
+        setTimeout(addConsultationIcon, 1800);
+      });
+    }
   })();
 
