@@ -1,4 +1,5 @@
 import ScrollTop from "@/components/generated/ScrollTop";
+import ChatWidget from "@/components/generated/ChatWidget";
 import HeaderSection from "@/components/sections/HeaderSection";
 import HeroSection from "@/components/sections/HeroSection";
 import PartnersSection from "@/components/sections/PartnersSection";
@@ -60,6 +61,7 @@ export default function Home() {
       </main>
       <FooterSection />
       <ScrollTop />
+      <ChatWidget />
     </>
   );
 }

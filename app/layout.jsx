@@ -45,6 +45,7 @@ const scriptSrcs = [
   "/assets/vendor/elementor-pro/js/frontend.min-cdd463d7ff.js",
   "/assets/vendor/elementor-pro/js/elements-handlers.min-cdd463d7ff.js",
   "/assets/scripts/app.js",
+  "/assets/scripts/chat-widget.js",
 ];
 
 export const metadata = {

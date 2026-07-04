@@ -1,1 +1,9 @@
 html { scroll-behavior: smooth; }
+
+.elementor-element-2c415a9 .elementor-social-icons-wrapper.elementor-grid {
+  display: flex !important;
+  flex-wrap: wrap;
+  column-gap: var(--grid-column-gap, 14px);
+  row-gap: 12px;
+}
+
