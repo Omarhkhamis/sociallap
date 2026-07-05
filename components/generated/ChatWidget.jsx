@@ -46,15 +46,11 @@ export default function ChatWidget() {
           transition: "transform 0.2s",
         }}
       >
-        <svg
-          viewBox="0 0 24 24"
-          style={{ width: "60%", height: "60%", flex: "0 0 auto", display: "block" }}
-        >
-          <path
-            d="M12 2.4l1.75 5.85a3 3 0 0 0 2 2L21.6 12l-5.85 1.75a3 3 0 0 0-2 2L12 21.6l-1.75-5.85a3 3 0 0 0-2-2L2.4 12l5.85-1.75a3 3 0 0 0 2-2z"
-            fill="#ffffff"
-          />
-        </svg>
+        <img
+          src="/assets/media/whitelogo.png"
+          alt=""
+          style={{ width: "62%", height: "62%", objectFit: "contain" }}
+        />
       </div>
 
       <div
